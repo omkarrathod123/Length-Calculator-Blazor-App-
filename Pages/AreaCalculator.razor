@@ -1,0 +1,11 @@
+﻿@page "/AreaCalculator"
+<div class="CalMain">
+    <h1>Area Calculator</h1>
+    <p>Calculate Area of Rectangle</p>
+    <span>Length:</span>
+    <input type="number" @bind="length" placeholder="Enter Length" /><br />
+    <span>Width</span>
+    <input type="number" @bind="width" placeholder="Enter Width" /><hr />
+    <button type="submit" @onclick="CalArea">Area of Rectangle</button>
+    <span>@statement</span>
+</div>
